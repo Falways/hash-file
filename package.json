@@ -1,0 +1,20 @@
+{
+  "name": "hash-file",
+  "version": "1.0.0",
+  "description": "Gets file the hash value",
+  "main": "index.js",
+  "repository": "Falways/hash-file",
+  "scripts": {
+    "test": "test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "hashfile"
+  ],
+  "author": "Falways",
+  "license": "ISC",
+  "dependencies": {
+  }
+}

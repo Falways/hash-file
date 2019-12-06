@@ -1,5 +1,5 @@
 {
-  "name": "hash-file",
+  "name": "hash-file-new",
   "version": "1.0.0",
   "description": "Gets file the hash value",
   "main": "index.js",

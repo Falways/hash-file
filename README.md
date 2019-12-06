@@ -1,7 +1,7 @@
 # hash-file
 ## Gets file the hash value
 # Usage
-  npm install hash-file
+  npm install hash-file-new
 
 # docs
   methods:
@@ -13,7 +13,7 @@
           example:
             let fs = require('fs');
             let path = require('path');
-            let hashFile = require('hash-file');
+            let hashFile = require('hash-file-new');
             // my test file 
             let filePath = path.resolve(__dirname,"./test.txt");
             hashFile.hashFile(filePath,hashFile.algorithmType.SHA256).then(resultHash=>{
@@ -30,7 +30,7 @@
           example:
             let fs = require('fs');
             let path = require('path');
-            let hashFile = require('hash-file');
+            let hashFile = require('hash-file-new');
             // my test file 
             let filePath = path.resolve(__dirname,"./test.txt");
             let resultHash = hashFile.hashFileAsync(filePath,hashFile.algorithmType.SHA256)
